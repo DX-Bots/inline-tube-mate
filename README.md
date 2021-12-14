@@ -3,6 +3,12 @@
 </a>
 </h1>
 
+<p align="center">
+    <a href="https://t.me/TheTeleRoid">
+        <img alt="GPL3" src ="https://telegra.ph/file/e9ac57ceab6a8cacdb562.jpg" width="340" height="214"/>
+    </a>
+</p>
+
 #### An Inline Telegram bot that can download YouTube videos with permanent thumbnail support
 
 <details>
@@ -99,8 +105,3 @@
     </a>
 </p>
 </details>
-<p align="center">
-    <a href="https://t.me/space4renjith">
-        <img alt="GPL3" src ="https://telegra.ph/file/c4f778ccfc576a954dd20.gif" width="340" height="214"/>
-    </a>
-</p>
