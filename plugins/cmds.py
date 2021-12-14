@@ -29,7 +29,7 @@ async def start_bot(bot, m: Message):
                        reply_markup=reply_markup_start)
 
 
-@Client.on_message(filters.private & filters.command('send'))
+@Client.on_message(filters.private & filters.command('broadcast'))
 async def send_messages(bot, m: Message):
     if m.from_user.id not in Config.SUDO_USERS:
         return
@@ -59,7 +59,7 @@ async def send_messages(bot, m: Message):
                            )
 
 
-@Client.on_message(filters.private & filters.command('subs'))
+@Client.on_message(filters.private & filters.command('users'))
 async def subscribers_count(bot, m: Message):
     id = m.from_user.id
     if id not in Config.SUDO_USERS:
