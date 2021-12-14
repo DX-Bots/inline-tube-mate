@@ -12,17 +12,21 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # Buttons used
 start_btn = [
     [
-        InlineKeyboardButton('View Thumb', callback_data='view_btn'),
-        InlineKeyboardButton('Del Thumb', callback_data='del_btn')
+        InlineKeyboardButton('Check Thumb', callback_data='view_btn'),
+        InlineKeyboardButton('Delete Thumb', callback_data='del_btn')
 
     ],
     [
-        InlineKeyboardButton('Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support', url='t.me/RMProjects')
+        InlineKeyboardButton('Search Inline', switch_inline_query_current_chat=''),
+        InlineKeyboardButton('Go Inline', switch_inline_query='')
     ],
     [
-        InlineKeyboardButton('Close', callback_data='close_btn'),
-        InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
+        InlineKeyboardButton('⭕ Support ⭕', url='t.me/TeleRoid14'),
+        InlineKeyboardButton('⭕ Channel ⭕', url='t.me/TeleRoidGroup')
+    ],
+    [
+        InlineKeyboardButton('🆘 Help', callback_data='help_btn'),
+        InlineKeyboardButton('🔐 Close', callback_data='close_btn')
     ]
     ]
 
@@ -31,9 +35,11 @@ del_thumb = [
             [
                 InlineKeyboardButton("DEL THUMB", callback_data="thumb_del_conf_btn"),
                 InlineKeyboardButton("Back", callback_data="a_back_btn")
+            ],
+            [
+                InlineKeyboardButton('⭕ Join Channel ⭕', url='t.me/TeleRoidGroup'),
             ]
             ]
-
 
 back_button = [
               [
@@ -44,13 +50,13 @@ back_button = [
 close_button = [
                [
                     InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-                    InlineKeyboardButton('Home', callback_data='home_btn')
+                    InlineKeyboardButton('🏡 Home', callback_data='home_btn')
                ]
                ]
 
 cancel_button = [
                 [
-                    InlineKeyboardButton('Cancel', callback_data='cancel_btn')
+                    InlineKeyboardButton('🚫 Cancel', callback_data='cancel_btn')
                 ]
                 ]
 
