@@ -19,7 +19,7 @@ class Presets(object):
     """
 
     OPTIONS_TXT = "<code>⭕ Select the option ⭕</code>"
-    WELCOME_MSG = "<code>Hello...</code><b>{}</b> 👋\n<code>I'm a YouTube Inline Downloader Bot with Thumbnail Support." \
+    WELCOME_MSG = "<code>Hello...</code><b>{}</b> 👋\n\n<code>I'm a YouTube Inline Downloader Bot with Thumbnail Support." \
                   "Search inline for videos and click to proceed for download.</code>"
     RESULTS_TXT = "Results Found 👀:"
     NO_RESULTS = "❌ No Results Found for This"
