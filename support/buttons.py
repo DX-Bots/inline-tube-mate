@@ -12,17 +12,16 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # Buttons used
 start_btn = [
     [
-        InlineKeyboardButton('Check Thumb', callback_data='view_btn'),
-        InlineKeyboardButton('Delete Thumb', callback_data='del_btn')
-
+        InlineKeyboardButton('⭕ Support ⭕', url='t.me/TeleRoid14'),
+        InlineKeyboardButton('⭕ Channel ⭕', url='t.me/TeleRoidGroup')
     ],
     [
         InlineKeyboardButton('Search Inline', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Go Inline', switch_inline_query='')
     ],
     [
-        InlineKeyboardButton('⭕ Support ⭕', url='t.me/TeleRoid14'),
-        InlineKeyboardButton('⭕ Channel ⭕', url='t.me/TeleRoidGroup')
+        InlineKeyboardButton('Check Thumb', callback_data='view_btn'),
+        InlineKeyboardButton('Delete Thumb', callback_data='del_btn')
     ],
     [
         InlineKeyboardButton('🆘 Help', callback_data='help_btn'),
